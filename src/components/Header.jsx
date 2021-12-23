@@ -14,13 +14,13 @@ function Header({ text, bgColor, textColor }) {
     </header>
   );
 }
-Header.defaultProps = {
-  text: 'Feedback UI',
-  bgColor: 'rgba(0,0,0,0.4)',
-  textColor: '#ff6a95',
-};
-Header.protoType = {
-  text: PropTypes.string,
-};
+// Header.defaultProps = {
+//   text: 'Feedback UI',
+//   bgColor: 'rgba(0,0,0,0.4)',
+//   textColor: '#ff6a95',
+// };
+// Header.protoType = {
+//   text: PropTypes.string,
+// };
 
 export default Header;
